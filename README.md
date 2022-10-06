@@ -1,5 +1,4 @@
-
-Deploy
+### Deploy
 
 ```shell
 gcloud functions deploy workouts-mongo-type-csharp \
@@ -13,7 +12,7 @@ gcloud functions deploy workouts-mongo-type-csharp \
 ```
 ### LOGS
 
-```
+``` google cloud
 gcloud functions logs read
 gcloud functions logs read FUNCTION_NAME --execution-id EXECUTION_ID
 ```
